@@ -33,7 +33,7 @@ export const logger = (pkg: LogPackage) => {
           }
         );
       } catch (err) {
-        // Do not throw, do not use console.log
+       
       }
     };
     next();
